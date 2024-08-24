@@ -1,0 +1,29 @@
+{
+  "name": "basic-monorepo",
+  "version": "1.0.0",
+  "description": "basic monorepo impl",
+  "main": "index.js",
+  "scripts": {
+    "start": "module-c",
+    "test": "testss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riteshschaudhari19/basic-monorepo.git"
+  },
+  "author": "Ritesh Chaudhari",
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/lodash",
+      "**/lodash/**"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/riteshschaudhari19/basic-monorepo/issues"
+  },
+  "homepage": "https://github.com/riteshschaudhari19/basic-monorepo#readme"
+}

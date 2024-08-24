@@ -1,2 +1,2 @@
-console.log('i m module-b');
-require('module-a');
+#!/usr/bin/env node
+console.log('i m module-b...!');
